@@ -1,0 +1,16 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "Solution to Express assignment",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express.js": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ali Akiltayev",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+<h1>
+	 Hello it's my movie search app
+</h1>
+
+<ul>
+	<% data.Search.forEach(function(movie) { %>
+		<li> <strong><%= movie["Title"] %> 
+			</strong> - 
+			<i><%= movie["Year"] %>
+			</i>
+		</li>
+	<% }) %>		
+</ul>
+
+<a href="/search"> Search again</a>
